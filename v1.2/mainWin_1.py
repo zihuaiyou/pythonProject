@@ -5,7 +5,7 @@
 #
 # 导入主程序文件所需的库
 
-# import sys
+import sys
 from PyQt5.QtWidgets import *
 import mainWin_1_UI
 import mainWin_1_UI_child_1
@@ -401,7 +401,6 @@ class myChildWindow2(QWidget, mainWin_1_UI_child_2.Ui_Form):
 #     w1_2 = myChildWindow2()
 #     # 显示主界面1
 #     w1.show()
-#
 #
 #     # 显示子界面1
 #     def show_w1_1():

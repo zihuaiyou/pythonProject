@@ -210,19 +210,3 @@ class myChildWindow(QWidget, mainWin_2_UI_child.Ui_Form):
                                 QMessageBox.Yes | QMessageBox.No, QMessageBox.Yes)
 
 
-# if __name__ == '__main__':
-#     app = QApplication(sys.argv)
-#     w2 = myMainWindow()
-#     w2_1 = myChildWindow()
-#     # 显示主界面1
-#     w1.show()
-#
-#     # 显示子界面1
-#     def show_w2():
-#         w2_1.show()
-#
-#
-#     # 绑定pushbutton_1
-#     w2.pushButton_1.clicked.connect(show_w2)
-#
-#     app.exec_()

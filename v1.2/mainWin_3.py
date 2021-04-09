@@ -333,16 +333,3 @@ class MychildWindow(QWidget, mainWin_3_UI_child.Ui_Form):
         self.lineEdit_n.setText(" ")
 
 
-# if __name__ == '__main__':
-#     app = QApplication(sys.argv)
-#     w3 = myMainWindow()
-#     w3_1 = MychildWindow()
-#     w3.show()
-#
-#
-#     def show_w2():
-#         w3_1.show()
-#
-#
-#     w1.pushButton.clicked.connect(show_w2)
-#     app.exec_()

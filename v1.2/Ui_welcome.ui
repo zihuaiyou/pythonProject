@@ -19,7 +19,7 @@
   <property name="windowTitle">
    <string>欢迎使用</string>
   </property>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="pushButton_4">
    <property name="geometry">
     <rect>
      <x>180</x>
@@ -118,8 +118,6 @@
  <resources/>
  <connections/>
  <slots>
-  <slot>openWin1()</slot>
-  <slot>openWin2()</slot>
-  <slot>openWin3()</slot>
+  <slot>showHelpDoc()</slot>
  </slots>
 </ui>
